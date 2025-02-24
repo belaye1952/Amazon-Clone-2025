@@ -8,7 +8,7 @@ function Header() {
     <div className={style.header_container}>
       <div className={style.logo_container}>
         <a href="#">
-          <img src="/public/1688364329amazon-logo-png-white.png" alt="" />
+          <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" />
         </a>
         <div className={style.delivery}>
           <span>
