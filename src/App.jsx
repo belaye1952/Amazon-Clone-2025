@@ -1,17 +1,17 @@
 import React from 'react'
+
+import Routing from './Routing'
 import Header from './Components/Header/Header'
-import Carousel from './Components/Carousel/Carousel'
-import Catagory from './Components/Catagory/Catagory'
-// import Product from './Components/Product/Product'
+import Category from './Components/Catagory/Catagory' 
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
+   
     <div>
-      <Header />
-      <Carousel />
-       <Catagory /> 
-      {/* <Product /> */} 
+      <Routing />
     </div>
+ 
   )
 }
 
