@@ -3,7 +3,7 @@ import LayOut from "../../Components/LayOut/LayOut"
 import { useParams } from "react-router-dom"
 import axios from "axios"
 import { productUrl } from "../../Api/endpoint"
-import ProductCard from "../../Components/Product/ProductCard"
+import ProdcutCard  from "../../Components/Product/ProductCard"
 import style from "./Results.module.css"
 function Results() {
   const { categoryName } = useParams()
@@ -33,8 +33,6 @@ function Results() {
                 return <ProdcutCard key={singleProduct.id} data={singleProduct}/>
             })}
             </div>
-        
-
       </div>
     </LayOut>
   )

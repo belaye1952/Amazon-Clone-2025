@@ -9,13 +9,13 @@ import Results from "./Pages/Results/Results"
 function Routing() {
   return (
     <div>
-      <Router  basename="/Amazon-Clone-2025">
+      <Router basename="/Amazon-Clone-2025">
         <Routes>
           <Route index element={<Landing />} />
-          {/* <Route path="/auth" element={<SignUp />} />
+          <Route path="/auth" element={<SignUp />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/category/:categoryName" element={<Results />} /> */}
+          <Route path="/category/:categoryName" element={<Results />} />
         </Routes>
       </Router>
     </div>

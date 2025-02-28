@@ -16,14 +16,14 @@ function Product() {
       })
   }, [])
   return (
-    <h1>product</h1>
-    // <div className={style.product_contianer}>
-    //   {
-    //     products?.map((single_product, i) => {
-    //       return <ProdcutCard key={i} data={single_product} />
-    //     })
-    //   }
-    // </div>
+ 
+    <div className={style.product_contianer}>
+      {
+        products?.map((single_product, i) => {
+          return <ProdcutCard key={i} data={single_product} />
+        })
+      }
+    </div>
   )
 }
 

@@ -11,7 +11,7 @@ function Header() {
       <div className={style.header_container}>
         <div className={style.logo_container}>
           <Link href="#">
-            <img src="" alt="" />
+          <img src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" /> 
           </Link>
           <div className={style.delivery}>
             <span>
