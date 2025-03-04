@@ -1,17 +1,16 @@
 import React from 'react'
-
-import Routing from './Routing'
 import Header from './Components/Header/Header'
-import Category from './Components/Catagory/Catagory' 
-import { BrowserRouter } from 'react-router-dom'
+import Carousel from './Components/Carousel/Carousel'
+import Catagory from './Components/Catagory/Catagory'
+import Product from './Components/Product/Product'
+import Landing from './Pages/Landing/Landing'
+import Routing from './Routing'
 
 function App() {
   return (
-   
     <div>
       <Routing />
     </div>
- 
   )
 }
 

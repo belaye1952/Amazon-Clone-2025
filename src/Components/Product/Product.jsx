@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from "axios"
 import style from "./Product.module.css"
-import ProdcutCard from '../Product/ProductCard';
+import ProductCard from '../Product/ProductCard';
 
 function Product() {
   const [products, setProducts] = useState();
@@ -20,7 +20,7 @@ function Product() {
     <div className={style.product_contianer}>
       {
         products?.map((single_product, i) => {
-          return <ProdcutCard key={i} data={single_product} />
+          return <ProductCard key={i} data={single_product} />
         })
       }
     </div>

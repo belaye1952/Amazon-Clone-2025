@@ -5,7 +5,7 @@ function Orders() {
   return (
     <LayOut>
       <div>
-      This is orderes page
+      This is orders page
     </div>  
     </LayOut>
     
