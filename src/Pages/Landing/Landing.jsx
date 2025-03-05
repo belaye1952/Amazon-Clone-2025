@@ -1,6 +1,6 @@
 import React from 'react'
 import  Carousel  from '../../Components/Carousel/Carousel'
-import Catagory from '../../Components/Catagory/Catagory'
+import Catagory from '../../Components/Category/Category'
 import Product from '../../Components/Product/Product'
 import LayOut from '../../Components/LayOut/LayOut'
 

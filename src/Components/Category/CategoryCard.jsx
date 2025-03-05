@@ -1,11 +1,11 @@
 import React from "react"
-import style from "../Catagory/Catagory.module.css"
+import style from "./Category.module.css"
 import { Link } from "react-router-dom"
-function CatagoryCard({ data }) {
+function CategoryCard({ data }) {
   return (
-    <div className={style.catagory}>
+    <div className={style.category}>
       <Link to={`/category/${data.category}`}>
-        <span>{data.title}</span>
+        <span>{data.category}</span>
         <img src={data.imageLink} alt="" />
         <p>Shop Now</p>
       </Link>
@@ -13,4 +13,4 @@ function CatagoryCard({ data }) {
   )
 }
 
-export default CatagoryCard
+export default CategoryCard
